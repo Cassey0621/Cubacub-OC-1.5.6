@@ -1,0 +1,84 @@
+/* God I hate Microsoft! */
+.product-filter .product-compare {
+	margin-top:2px;
+	}
+.product-filter .display {
+	  float:right;
+	  margin-top:0px;
+	  }	  
+/************************* table wishlist ****************/
+.table td {
+	padding:8px
+	}
+.login-content .heading h2 {
+	  font-size:13px;
+	}
+.login-content .heading i {
+		font-size:20px;
+	}
+header #logo a img {
+	width:auto
+	}
+/*************************************************************/
+.product-grid img, .product-list img, .box-product img {
+	width:auto;
+	max-width:80%;
+	display:block;
+}
+.bx-wrapper .image a{
+	display:block;
+}
+.banner, .banner a{
+	display:block;
+	width:100%;
+}
+aside .banner >div{
+	max-width:220px;
+}
+.banner img{
+	width:auto;
+	max-width:100%;
+}
+#cboxLoadedContent{
+	position:relative;
+	z-index:3;
+	background-color:#fff;
+}
+.product-grid .cart, .product-list .cart, .wishlist a , .compare a, a.button-prod  {
+	margin-right:6px;
+	}
+.pp_gallery ul li{
+    float:left;
+}
+.pp_gallery ul li, .pp_gallery ul a{
+    width:50px;
+}
+#menu>ul>li>a> span.sf-sub-indicator, #menu>ul>li>a> span.sf-sub-indicator:after {
+	display: none !important;
+	}
+.box-product .sale, .product-grid .sale{
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+	background: url(../image/sale-ie8.gif) 0 0 no-repeat;
+	width:91px;
+	height:39px;
+	text-align:left;
+	padding-left:15px;
+	top:0; 
+	right:-50px;
+}
+.box-product .sale:after, .product-grid .sale:after{	
+	display:none;
+}
+.header-modules .camera_caption:before{
+	display:none;
+}
+.header-modules .camera_caption{
+	top:0;
+	height:100%;
+	width:456px;
+	display:block;
+	background: url(../image/slide-ie8.png) right top no-repeat;
+}
+.header-modules .camera_caption > div {
+	padding-top:165px;
+}

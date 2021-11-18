@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<modification>
+    <name>Images compress SqueezeImg</name>
+    <code>images_compress_squeezeimg</code>
+    <version>1.3.7</version>
+    <author>PintaWebware</author>
+    <link>https://pinta.com.ua</link>
+    <file path="system/library/response.php">
+        <operation>
+            <search >
+                <![CDATA[echo $output;]]>
+            </search>
+            <add position="before">
+                <![CDATA[//Image_compress_squeezeimg start
+                if (file_exists(DIR_SYSTEM . "storage/images_compress_squeezeimg/lazy_load.enabled") && (strpos($_SERVER['REQUEST_URI'], 'admin') === false)) {
+                $loader_img = @file_get_contents(DIR_SYSTEM . "storage/images_compress_squeezeimg/lazy_load.image");
+                if($loader_img){
+                    $output = preg_replace(
+                        '@<img(.*?)\s(src=[\'|"].*?[\'|"])(.*?)>@ms',
+                        '<img$1 src="' . $loader_img . '" data-squeezeimg-$2$3>',
+                        $output
+                    );
+                }
+            }
+              //Image_compress_squeezeimg end
+                ]]>
+            </add>
+        </operation>
+    </file>
+    <file path="catalog/controller/common/footer.php">
+        <operation>
+            <search>
+                <![CDATA[public function index() {]]>
+            </search>
+            <add position="after">
+                <![CDATA[$this->document->addScript('catalog/view/javascript/images_compress_squeezeimg/images_compress_squeezeimg.js');]]>
+            </add>
+        </operation>
+    </file>
+    <file path="admin/controller/common/filemanager.php">
+        <operation>
+            <search>
+                <![CDATA[move_uploaded_file($file['tmp_name'], $directory . '/' . $filename);]]>
+            </search>
+            <add position="after">
+                <![CDATA[
+                //Image_compress_squeezeimg start
+                    try{
+                    $this->load->library('images_compress_squeezeimg/images');
+                        $this->images->eventUpload( 
+                        $directory . '/' . $filename,
+                        $this->config->get('module_images_compress_squeezeimg_status'),
+                        $this->config->get('module_images_compress_squeezeimg_quality'),
+                        $this->config->get('module_images_compress_squeezeimg_origin_replace'),
+                        $this->config->get('module_images_compress_squeezeimg_webp_status'),
+                        $this->config->get('module_images_compress_squeezeimg_jp2_status'),
+                        $this->config->get('module_images_compress_squeezeimg_token')
+                        );
+                    } catch (\Exeption $e){
+                    }
+                //Image_compress_squeezeimg end
+
+                    ]]>
+            </add>
+        </operation>
+    </file>
+</modification>

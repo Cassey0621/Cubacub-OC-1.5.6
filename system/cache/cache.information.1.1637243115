@@ -1,0 +1,412 @@
+a:4:{i:0;a:7:{s:14:"information_id";s:1:"4";s:6:"bottom";s:1:"1";s:10:"sort_order";s:1:"1";s:6:"status";s:1:"1";s:11:"language_id";s:1:"1";s:5:"title";s:5:"About";s:11:"description";s:6087:"&lt;div class=&quot;about-page&quot;&gt;
+&lt;p align=&quot;justify&quot; class=&quot;western&quot; lang=&quot;en-PH&quot; style=&quot;margin-bottom: 0.11in; line-height: 108%&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;font face=&quot;Times New Roman, serif&quot;&gt;&lt;font size=&quot;2&quot; style=&quot;font-size: 10pt&quot;&gt;&lt;span lang=&quot;en-US&quot;&gt;Product Purchase Recommender for Agricultural Hardware on E-commerce selling a most common product Items usable for Agricultural Industry such as Tools and Machinery for Farmers, convenient tool etc. &lt;/span&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;font size=&quot;2&quot; style=&quot;font-size: 10pt&quot;&gt;A Content-based filtering uses item features to recommend other items similar to what the user likes, based on their previous actions or explicit feedback. We choose Content-based filtering because it doesn't need any data about other users, can also capture the specific interests of a user and makes it easier if you have a large number of users.&lt;/font&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;font face=&quot;Times New Roman, serif&quot;&gt;&lt;font size=&quot;2&quot; style=&quot;font-size: 10pt&quot;&gt;&lt;span lang=&quot;en-US&quot;&gt; The main problem is that most of the E-commerce software platforms are usually used on Non-Personalized Approach or Collaborative Filtering Approach that are not accurately compatible in User’s preference that is why we conduct this study and we found out that Content-based Filtering Approach is the most effective and successful technique algorithm filtering in terms of Users most similar preference on recommending Items. It is dependent algorithm that emphasizes more on the analysis of the attributes of the items to generate predictions and to add an Agricultural Hardware on specified datasets of our Locale which is Cubacub Store. Information based of the system will be based on an existing algorithm computation of Recommender Systems which the Content-based filtering algorithm it in this recommender system the content of the Items (overview, Item name, specification, description, price etc.) is used to find its similarity with other Items. Then the Items that are most likely to be similar are recommended. we will compute pairwise similarity scores for all Items based on their plot descriptions and recommend Items based on that similarity score. The plot description is given in the “overview” feature of our dataset. With this matrix, we compute a similarity score. We will be using the cosine similarity to calculate a numeric quantity that denotes the similarity between two Items. We use the cosine similarity score since it is independent of magnitude and is relatively easy and fast to calculate. we used the TF-IDF vectorizer, calculating the dot product will directly give us the cosine similarity score. &lt;/span&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p align=&quot;justify&quot; class=&quot;western&quot; lang=&quot;en-PH&quot; style=&quot;margin-bottom: 0.11in; line-height: 108%&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;font face=&quot;Times New Roman, serif&quot;&gt;&lt;font size=&quot;2&quot; style=&quot;font-size: 10pt&quot;&gt;&lt;span lang=&quot;en-US&quot;&gt;Sparsity of Data. These features sparsity is one of the major challenges for e-commerce recommendation system. For a very large item set the user–item metric becomes sparse. It causes poor recommendations for some items. New items recommendation becomes dependent upon the old users to rate them. Lack of preference history causes poor recommendation for the new users. [1]&lt;/span&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p align=&quot;justify&quot; class=&quot;western&quot; lang=&quot;en-PH&quot; style=&quot;margin-bottom: 0.11in; line-height: 108%&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;font face=&quot;Times New Roman, serif&quot;&gt;&lt;font size=&quot;2&quot; style=&quot;font-size: 10pt&quot;&gt;&lt;span lang=&quot;en-US&quot;&gt;Since there of Sparsity of data for new users the researchers will implement the existing model will be based on a Recommender Systems Some major recommender system algorithm (2020) [1] as an initial algorithm for the recommendation. As the user subsequently used the Recommender the system will be fined tune based on the users’ preferences to append the lack of data issues. &lt;/span&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p align=&quot;justify&quot; class=&quot;western&quot; lang=&quot;en-PH&quot; style=&quot;margin-bottom: 0.11in; line-height: 108%&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;font face=&quot;Times New Roman, serif&quot;&gt;&lt;font size=&quot;2&quot; style=&quot;font-size: 10pt&quot;&gt;&lt;span lang=&quot;en-US&quot;&gt;The researchers will include the additional information such as the user info, the items, the purchasing details, or any other personal information, category, or other characteristics for the Products (Items) as the part of the Information base.&lt;/span&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p align=&quot;justify&quot; class=&quot;western&quot; lang=&quot;en-PH&quot; style=&quot;margin-bottom: 0.11in; line-height: 108%&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;font face=&quot;Times New Roman, serif&quot;&gt;&lt;font size=&quot;2&quot; style=&quot;font-size: 10pt&quot;&gt;&lt;span lang=&quot;en-US&quot;&gt;Then, the idea of Content Based methods is to try to implement an existing model, based on the available “features”, Product details: Item Id name, Specification, Color, Quantity &amp;amp; Quantity. Transaction/Order details: Item Purchase, Payment Method &amp;amp; Item cost. and Customer details: Customer Name, Address, Phone #, etc., along with the validation of User satisfactions for Content-based System Recommendation for Product Purchase for Machine Learning and Artificial Intelligence: Agricultural Industries (2020).&lt;/span&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/p&gt;
+&lt;/div&gt;
+";}i:1;a:7:{s:14:"information_id";s:1:"6";s:6:"bottom";s:1:"1";s:10:"sort_order";s:1:"2";s:6:"status";s:1:"1";s:11:"language_id";s:1:"1";s:5:"title";s:8:"Delivery";s:11:"description";s:4871:"&lt;div class=&quot;about-page&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot;margin-bottom: 0.11in; line-height: 108%&quot;&gt;&lt;font face=&quot;Segoe UI, serif&quot;&gt;&lt;font size=&quot;4&quot; style=&quot;font-size: 16pt&quot;&gt;&lt;b&gt;Cubacub Agricultural Hardware&lt;/b&gt;&lt;/font&gt;&lt;/font&gt;&lt;font face=&quot;Segoe UI, serif&quot;&gt;&lt;font size=&quot;4&quot; style=&quot;font-size: 16pt&quot;&gt;&lt;b&gt; Shipping Policy&lt;/b&gt;&lt;/font&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p align=&quot;justify&quot; style=&quot;margin-bottom: 0.11in; line-height: 108%&quot;&gt;&lt;font face=&quot;Segoe UI, serif&quot;&gt;This document sets out the shipping policy that applies to customers that make a purchase at &lt;/font&gt;&lt;a href=&quot;https://cubacubhardware.tech/&quot;&gt;&lt;font face=&quot;Segoe UI, serif&quot;&gt;https://cubacubhardware.tech&lt;/font&gt;&lt;/a&gt;&lt;font face=&quot;Segoe UI, serif&quot;&gt; If you have any questions, please contact our customer service team on &lt;/font&gt;&lt;font face=&quot;Segoe UI, serif&quot;&gt;info@cubacubhardware.tech&lt;/font&gt;&lt;font face=&quot;Segoe UI, serif&quot;&gt;.&lt;/font&gt;&lt;/p&gt;
+
+&lt;p align=&quot;justify&quot; style=&quot;margin-bottom: 0.11in; line-height: 108%&quot;&gt;&lt;font face=&quot;Segoe UI, serif&quot;&gt;&lt;b&gt;Shipping Options &amp;amp; Delivery Costs&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p align=&quot;justify&quot; style=&quot;margin-bottom: 0.11in; line-height: 108%&quot;&gt;&lt;font face=&quot;Segoe UI, serif&quot;&gt;We offer the following shipping options - you will be asked to select a shipping method at checkout.&lt;/font&gt;&lt;/p&gt;
+
+&lt;p align=&quot;justify&quot; style=&quot;margin-bottom: 0.11in; line-height: 108%&quot;&gt;&lt;font face=&quot;Segoe UI, serif&quot;&gt;FREE SHIPPING on Orders Above 500 pesos. Standard rates applies for orders below 500.&lt;/font&gt;&lt;/p&gt;
+
+&lt;p align=&quot;justify&quot; style=&quot;margin-bottom: 0.11in; line-height: 108%&quot;&gt;&lt;font face=&quot;Segoe UI, serif&quot;&gt;&lt;b&gt;Order Processing Time&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p align=&quot;justify&quot; style=&quot;margin-bottom: 0.11in; line-height: 108%&quot;&gt;&lt;font face=&quot;Segoe UI, serif&quot;&gt;All orders placed before 2 PM Monday to Friday are processed and dispatched the same day, all orders placed after will be dispatched the next day. All orders placed during the weekend or on a public holiday will be sent from our warehouse on Monday or on the next business day.&lt;/font&gt;&lt;/p&gt;
+
+&lt;p align=&quot;justify&quot; style=&quot;margin-bottom: 0.11in; line-height: 108%&quot;&gt;&lt;font face=&quot;Segoe UI, serif&quot;&gt;&lt;b&gt;Delivery Address &amp;amp; P.O. Boxes&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p align=&quot;justify&quot; style=&quot;margin-bottom: 0.11in; line-height: 108%&quot;&gt;&lt;font face=&quot;Segoe UI, serif&quot;&gt;Please note that we are unable to modify the delivery address once you have placed your order. We are sorry but we do not ship to P.O. boxes.&lt;/font&gt;&lt;/p&gt;
+
+&lt;p align=&quot;justify&quot; style=&quot;margin-bottom: 0.11in; line-height: 108%&quot;&gt;&lt;font face=&quot;Segoe UI, serif&quot;&gt;&lt;b&gt;International Orders&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p align=&quot;justify&quot; style=&quot;margin-bottom: 0.11in; line-height: 108%&quot;&gt;&lt;font face=&quot;Segoe UI, serif&quot;&gt;Your package may be subject to import duties and taxes. You, as the customer, are responsible for paying those fees. We recommend that you check with your local customs office before placing an order on our website as these fees can sometimes be significant and we are unable to calculate these for you.&lt;/font&gt;&lt;/p&gt;
+
+&lt;p align=&quot;justify&quot; style=&quot;margin-bottom: 0.11in; line-height: 108%&quot;&gt;&lt;font face=&quot;Segoe UI, serif&quot;&gt;&lt;b&gt;Tracking Your Order&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p align=&quot;justify&quot; style=&quot;margin-bottom: 0.11in; line-height: 108%&quot;&gt;&lt;font face=&quot;Segoe UI, serif&quot;&gt;Once your order has been dispatched, we will send you a confirmation email with tracking information. You will be able to track your package directly on the carrier’s website.&lt;/font&gt;&lt;/p&gt;
+
+&lt;p align=&quot;justify&quot; style=&quot;margin-bottom: 0.11in; line-height: 108%&quot;&gt;&lt;font face=&quot;Segoe UI, serif&quot;&gt;&lt;b&gt;Returns, Refunds, and Exchanges&lt;/b&gt;&lt;/font&gt;&lt;/p&gt;
+
+&lt;p align=&quot;justify&quot; style=&quot;margin-bottom: 0.11in; line-height: 108%&quot;&gt;&lt;font face=&quot;Segoe UI, serif&quot;&gt;We want you to be completely happy with your purchase - please read our return &amp;amp; refund policy for detailed information about our processes.&lt;/font&gt;&lt;/p&gt;
+&lt;/div&gt;
+";}i:2;a:7:{s:14:"information_id";s:1:"3";s:6:"bottom";s:1:"1";s:10:"sort_order";s:1:"3";s:6:"status";s:1:"1";s:11:"language_id";s:1:"1";s:5:"title";s:14:"Privacy Policy";s:11:"description";s:40298:"&lt;div class=&quot;about-page&quot;&gt;
+&lt;h1 style=&quot;box-sizing: border-box; font-size: 2.125rem; line-height: 1.4; font-weight: 700; margin: 25px 0px 15px; padding-bottom: 0px; color: rgb(34, 19, 65); font-family: &amp;quot;helvetica neue&amp;quot;, Helvetica, Arial, sans-serif;&quot;&gt;&lt;span style=&quot;color: rgb(73, 57, 106); font-size: 1rem;&quot;&gt;This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You.&lt;/span&gt;&lt;/h1&gt;
+
+&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; font-size: 1rem; color: rgb(73, 57, 106); font-family: &amp;quot;helvetica neue&amp;quot;, Helvetica, Arial, sans-serif;&quot;&gt;We use Your Personal data to provide and improve the Service. By using the Service, You agree to the collection and use of information in accordance with this Privacy Policy. This Privacy Policy has been created with the help of the&amp;nbsp;&lt;a href=&quot;https://www.freeprivacypolicy.com/free-privacy-policy-generator/&quot; style=&quot;box-sizing: border-box; background-color: transparent; text-decoration-line: none; color: rgb(73, 57, 106); transition: color 0.3s ease 0s;&quot; target=&quot;_blank&quot;&gt;Privacy Policy Generator&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 style=&quot;box-sizing: border-box; font-size: 2.125rem; line-height: 1.4; font-weight: 700; margin: 25px 0px 15px; padding-bottom: 0px; color: rgb(34, 19, 65); font-family: &amp;quot;helvetica neue&amp;quot;, Helvetica, Arial, sans-serif;&quot;&gt;Interpretation and Definitions&lt;/h1&gt;
+
+&lt;h2 style=&quot;box-sizing: border-box; font-size: 1.65rem; line-height: inherit; font-weight: 700; margin: 20px 0px 10px; padding-bottom: 0px; color: rgb(34, 19, 65); font-family: &amp;quot;helvetica neue&amp;quot;, Helvetica, Arial, sans-serif;&quot;&gt;Interpretation&lt;/h2&gt;
+
+&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; font-size: 1rem; color: rgb(73, 57, 106); font-family: &amp;quot;helvetica neue&amp;quot;, Helvetica, Arial, sans-serif;&quot;&gt;The words of which the initial letter is capitalized have meanings defined under the following conditions. The following definitions shall have the same meaning regardless of whether they appear in singular or in plural.&lt;/p&gt;
+
+&lt;h2 style=&quot;box-sizing: border-box; font-size: 1.65rem; line-height: inherit; font-weight: 700; margin: 20px 0px 10px; padding-bottom: 0px; color: rgb(34, 19, 65); font-family: &amp;quot;helvetica neue&amp;quot;, Helvetica, Arial, sans-serif;&quot;&gt;Definitions&lt;/h2&gt;
+
+&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; font-size: 1rem; color: rgb(73, 57, 106); font-family: &amp;quot;helvetica neue&amp;quot;, Helvetica, Arial, sans-serif;&quot;&gt;For the purposes of this Privacy Policy:&lt;/p&gt;
+
+&lt;ul style=&quot;box-sizing: border-box; margin: 15px 0px 15px 30px; padding-right: 0px; padding-left: 0px; list-style-position: initial; list-style-image: initial; font-size: 1rem; line-height: 2; color: rgb(73, 57, 106); font-family: &amp;quot;helvetica neue&amp;quot;, Helvetica, Arial, sans-serif;&quot;&gt;
+	&lt;li style=&quot;box-sizing: border-box;&quot;&gt;
+	&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; font-size: 1rem;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: bolder;&quot;&gt;Account&lt;/span&gt;&amp;nbsp;means a unique account created for You to access our Service or parts of our Service.&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li style=&quot;box-sizing: border-box;&quot;&gt;
+	&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; font-size: 1rem;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: bolder;&quot;&gt;Company&lt;/span&gt;&amp;nbsp;(referred to as either &quot;the Company&quot;, &quot;We&quot;, &quot;Us&quot; or &quot;Our&quot; in this Agreement) refers to Cubacub Agricultural Hardware.&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li style=&quot;box-sizing: border-box;&quot;&gt;
+	&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; font-size: 1rem;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: bolder;&quot;&gt;Cookies&lt;/span&gt;&amp;nbsp;are small files that are placed on Your computer, mobile device or any other device by a website, containing the details of Your browsing history on that website among its many uses.&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li style=&quot;box-sizing: border-box;&quot;&gt;
+	&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; font-size: 1rem;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: bolder;&quot;&gt;Country&lt;/span&gt;&amp;nbsp;refers to: Philippines&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li style=&quot;box-sizing: border-box;&quot;&gt;
+	&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; font-size: 1rem;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: bolder;&quot;&gt;Device&lt;/span&gt;&amp;nbsp;means any device that can access the Service such as a computer, a cellphone or a digital tablet.&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li style=&quot;box-sizing: border-box;&quot;&gt;
+	&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; font-size: 1rem;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: bolder;&quot;&gt;Personal Data&lt;/span&gt;&amp;nbsp;is any information that relates to an identified or identifiable individual.&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li style=&quot;box-sizing: border-box;&quot;&gt;
+	&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; font-size: 1rem;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: bolder;&quot;&gt;Service&lt;/span&gt;&amp;nbsp;refers to the Website.&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li style=&quot;box-sizing: border-box;&quot;&gt;
+	&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; font-size: 1rem;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: bolder;&quot;&gt;Service Provider&lt;/span&gt;&amp;nbsp;means any natural or legal person who processes the data on behalf of the Company. It refers to third-party companies or individuals employed by the Company to facilitate the Service, to provide the Service on behalf of the Company, to perform services related to the Service or to assist the Company in analyzing how the Service is used.&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li style=&quot;box-sizing: border-box;&quot;&gt;
+	&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; font-size: 1rem;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: bolder;&quot;&gt;Usage Data&lt;/span&gt;&amp;nbsp;refers to data collected automatically, either generated by the use of the Service or from the Service infrastructure itself (for example, the duration of a page visit).&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li style=&quot;box-sizing: border-box;&quot;&gt;
+	&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; font-size: 1rem;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: bolder;&quot;&gt;Website&lt;/span&gt;&amp;nbsp;refers to Cubacub Agricultural Hardware, accessible from&amp;nbsp;&lt;a href=&quot;https://cubacubhardware.tech/&quot; rel=&quot;external nofollow noopener&quot; style=&quot;box-sizing: border-box; background-color: transparent; text-decoration-line: none; color: rgb(73, 57, 106); transition: color 0.3s ease 0s;&quot; target=&quot;_blank&quot;&gt;https://cubacubhardware.tech/&lt;/a&gt;&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li style=&quot;box-sizing: border-box;&quot;&gt;
+	&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; font-size: 1rem;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: bolder;&quot;&gt;You&lt;/span&gt;&amp;nbsp;means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable.&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 style=&quot;box-sizing: border-box; font-size: 2.125rem; line-height: 1.4; font-weight: 700; margin: 25px 0px 15px; padding-bottom: 0px; color: rgb(34, 19, 65); font-family: &amp;quot;helvetica neue&amp;quot;, Helvetica, Arial, sans-serif;&quot;&gt;Collecting and Using Your Personal Data&lt;/h1&gt;
+
+&lt;h2 style=&quot;box-sizing: border-box; font-size: 1.65rem; line-height: inherit; font-weight: 700; margin: 20px 0px 10px; padding-bottom: 0px; color: rgb(34, 19, 65); font-family: &amp;quot;helvetica neue&amp;quot;, Helvetica, Arial, sans-serif;&quot;&gt;Types of Data Collected&lt;/h2&gt;
+
+&lt;h3 style=&quot;box-sizing: border-box; font-size: 1.35rem; line-height: inherit; font-weight: 700; margin: 20px 0px 10px; padding-bottom: 0px; color: rgb(34, 19, 65); font-family: &amp;quot;helvetica neue&amp;quot;, Helvetica, Arial, sans-serif;&quot;&gt;Personal Data&lt;/h3&gt;
+
+&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; font-size: 1rem; color: rgb(73, 57, 106); font-family: &amp;quot;helvetica neue&amp;quot;, Helvetica, Arial, sans-serif;&quot;&gt;While using Our Service, We may ask You to provide Us with certain personally identifiable information that can be used to contact or identify You. Personally identifiable information may include, but is not limited to:&lt;/p&gt;
+
+&lt;ul style=&quot;box-sizing: border-box; margin: 15px 0px 15px 30px; padding-right: 0px; padding-left: 0px; list-style-position: initial; list-style-image: initial; font-size: 1rem; line-height: 2; color: rgb(73, 57, 106); font-family: &amp;quot;helvetica neue&amp;quot;, Helvetica, Arial, sans-serif;&quot;&gt;
+	&lt;li style=&quot;box-sizing: border-box;&quot;&gt;
+	&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; font-size: 1rem;&quot;&gt;Email address&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li style=&quot;box-sizing: border-box;&quot;&gt;
+	&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; font-size: 1rem;&quot;&gt;First name and last name&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li style=&quot;box-sizing: border-box;&quot;&gt;
+	&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; font-size: 1rem;&quot;&gt;Phone number&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li style=&quot;box-sizing: border-box;&quot;&gt;
+	&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; font-size: 1rem;&quot;&gt;Address, State, Province, ZIP/Postal code, City&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li style=&quot;box-sizing: border-box;&quot;&gt;
+	&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; font-size: 1rem;&quot;&gt;Usage Data&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 style=&quot;box-sizing: border-box; font-size: 1.35rem; line-height: inherit; font-weight: 700; margin: 20px 0px 10px; padding-bottom: 0px; color: rgb(34, 19, 65); font-family: &amp;quot;helvetica neue&amp;quot;, Helvetica, Arial, sans-serif;&quot;&gt;Usage Data&lt;/h3&gt;
+
+&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; font-size: 1rem; color: rgb(73, 57, 106); font-family: &amp;quot;helvetica neue&amp;quot;, Helvetica, Arial, sans-serif;&quot;&gt;Usage Data is collected automatically when using the Service.&lt;/p&gt;
+
+&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; font-size: 1rem; color: rgb(73, 57, 106); font-family: &amp;quot;helvetica neue&amp;quot;, Helvetica, Arial, sans-serif;&quot;&gt;Usage Data may include information such as Your Device's Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that You visit, the time and date of Your visit, the time spent on those pages, unique device identifiers and other diagnostic data.&lt;/p&gt;
+
+&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; font-size: 1rem; color: rgb(73, 57, 106); font-family: &amp;quot;helvetica neue&amp;quot;, Helvetica, Arial, sans-serif;&quot;&gt;When You access the Service by or through a mobile device, We may collect certain information automatically, including, but not limited to, the type of mobile device You use, Your mobile device unique ID, the IP address of Your mobile device, Your mobile operating system, the type of mobile Internet browser You use, unique device identifiers and other diagnostic data.&lt;/p&gt;
+
+&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; font-size: 1rem; color: rgb(73, 57, 106); font-family: &amp;quot;helvetica neue&amp;quot;, Helvetica, Arial, sans-serif;&quot;&gt;We may also collect information that Your browser sends whenever You visit our Service or when You access the Service by or through a mobile device.&lt;/p&gt;
+
+&lt;h3 style=&quot;box-sizing: border-box; font-size: 1.35rem; line-height: inherit; font-weight: 700; margin: 20px 0px 10px; padding-bottom: 0px; color: rgb(34, 19, 65); font-family: &amp;quot;helvetica neue&amp;quot;, Helvetica, Arial, sans-serif;&quot;&gt;Tracking Technologies and Cookies&lt;/h3&gt;
+
+&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; font-size: 1rem; color: rgb(73, 57, 106); font-family: &amp;quot;helvetica neue&amp;quot;, Helvetica, Arial, sans-serif;&quot;&gt;We use Cookies and similar tracking technologies to track the activity on Our Service and store certain information. Tracking technologies used are beacons, tags, and scripts to collect and track information and to improve and analyze Our Service. The technologies We use may include:&lt;/p&gt;
+
+&lt;ul style=&quot;box-sizing: border-box; margin: 15px 0px 15px 30px; padding-right: 0px; padding-left: 0px; list-style-position: initial; list-style-image: initial; font-size: 1rem; line-height: 2; color: rgb(73, 57, 106); font-family: &amp;quot;helvetica neue&amp;quot;, Helvetica, Arial, sans-serif;&quot;&gt;
+	&lt;li style=&quot;box-sizing: border-box;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: bolder;&quot;&gt;Cookies or Browser Cookies.&lt;/span&gt;&amp;nbsp;A cookie is a small file placed on Your Device. You can instruct Your browser to refuse all Cookies or to indicate when a Cookie is being sent. However, if You do not accept Cookies, You may not be able to use some parts of our Service. Unless you have adjusted Your browser setting so that it will refuse Cookies, our Service may use Cookies.&lt;/li&gt;
+	&lt;li style=&quot;box-sizing: border-box;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: bolder;&quot;&gt;Flash Cookies.&lt;/span&gt;&amp;nbsp;Certain features of our Service may use local stored objects (or Flash Cookies) to collect and store information about Your preferences or Your activity on our Service. Flash Cookies are not managed by the same browser settings as those used for Browser Cookies. For more information on how You can delete Flash Cookies, please read &quot;Where can I change the settings for disabling, or deleting local shared objects?&quot; available at&amp;nbsp;&lt;a href=&quot;https://helpx.adobe.com/flash-player/kb/disable-local-shared-objects-flash.html#main_Where_can_I_change_the_settings_for_disabling__or_deleting_local_shared_objects_&quot; rel=&quot;external nofollow noopener&quot; style=&quot;box-sizing: border-box; background-color: transparent; text-decoration-line: none; color: rgb(73, 57, 106); transition: color 0.3s ease 0s;&quot; target=&quot;_blank&quot;&gt;https://helpx.adobe.com/flash-player/kb/disable-local-shared-objects-flash.html#main_Where_can_I_change_the_settings_for_disabling__or_deleting_local_shared_objects_&lt;/a&gt;&lt;/li&gt;
+	&lt;li style=&quot;box-sizing: border-box;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: bolder;&quot;&gt;Web Beacons.&lt;/span&gt;&amp;nbsp;Certain sections of our Service and our emails may contain small electronic files known as web beacons (also referred to as clear gifs, pixel tags, and single-pixel gifs) that permit the Company, for example, to count users who have visited those pages or opened an email and for other related website statistics (for example, recording the popularity of a certain section and verifying system and server integrity).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; font-size: 1rem; color: rgb(73, 57, 106); font-family: &amp;quot;helvetica neue&amp;quot;, Helvetica, Arial, sans-serif;&quot;&gt;Cookies can be &quot;Persistent&quot; or &quot;Session&quot; Cookies. Persistent Cookies remain on Your personal computer or mobile device when You go offline, while Session Cookies are deleted as soon as You close Your web browser. Learn more about cookies:&amp;nbsp;&lt;a href=&quot;https://www.freeprivacypolicy.com/blog/cookies/&quot; style=&quot;box-sizing: border-box; background-color: transparent; text-decoration-line: none; color: rgb(73, 57, 106); transition: color 0.3s ease 0s;&quot; target=&quot;_blank&quot;&gt;Cookies: What Do They Do?&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; font-size: 1rem; color: rgb(73, 57, 106); font-family: &amp;quot;helvetica neue&amp;quot;, Helvetica, Arial, sans-serif;&quot;&gt;We use both Session and Persistent Cookies for the purposes set out below:&lt;/p&gt;
+
+&lt;ul style=&quot;box-sizing: border-box; margin: 15px 0px 15px 30px; padding-right: 0px; padding-left: 0px; list-style-position: initial; list-style-image: initial; font-size: 1rem; line-height: 2; color: rgb(73, 57, 106); font-family: &amp;quot;helvetica neue&amp;quot;, Helvetica, Arial, sans-serif;&quot;&gt;
+	&lt;li style=&quot;box-sizing: border-box;&quot;&gt;
+	&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; font-size: 1rem;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: bolder;&quot;&gt;Necessary / Essential Cookies&lt;/span&gt;&lt;/p&gt;
+
+	&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; font-size: 1rem;&quot;&gt;Type: Session Cookies&lt;/p&gt;
+
+	&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; font-size: 1rem;&quot;&gt;Administered by: Us&lt;/p&gt;
+
+	&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; font-size: 1rem;&quot;&gt;Purpose: These Cookies are essential to provide You with services available through the Website and to enable You to use some of its features. They help to authenticate users and prevent fraudulent use of user accounts. Without these Cookies, the services that You have asked for cannot be provided, and We only use these Cookies to provide You with those services.&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li style=&quot;box-sizing: border-box;&quot;&gt;
+	&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; font-size: 1rem;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: bolder;&quot;&gt;Cookies Policy / Notice Acceptance Cookies&lt;/span&gt;&lt;/p&gt;
+
+	&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; font-size: 1rem;&quot;&gt;Type: Persistent Cookies&lt;/p&gt;
+
+	&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; font-size: 1rem;&quot;&gt;Administered by: Us&lt;/p&gt;
+
+	&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; font-size: 1rem;&quot;&gt;Purpose: These Cookies identify if users have accepted the use of cookies on the Website.&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li style=&quot;box-sizing: border-box;&quot;&gt;
+	&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; font-size: 1rem;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: bolder;&quot;&gt;Functionality Cookies&lt;/span&gt;&lt;/p&gt;
+
+	&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; font-size: 1rem;&quot;&gt;Type: Persistent Cookies&lt;/p&gt;
+
+	&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; font-size: 1rem;&quot;&gt;Administered by: Us&lt;/p&gt;
+
+	&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; font-size: 1rem;&quot;&gt;Purpose: These Cookies allow us to remember choices You make when You use the Website, such as remembering your login details or language preference. The purpose of these Cookies is to provide You with a more personal experience and to avoid You having to re-enter your preferences every time You use the Website.&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; font-size: 1rem; color: rgb(73, 57, 106); font-family: &amp;quot;helvetica neue&amp;quot;, Helvetica, Arial, sans-serif;&quot;&gt;For more information about the cookies we use and your choices regarding cookies, please visit our Cookies Policy or the Cookies section of our Privacy Policy.&lt;/p&gt;
+
+&lt;h2 style=&quot;box-sizing: border-box; font-size: 1.65rem; line-height: inherit; font-weight: 700; margin: 20px 0px 10px; padding-bottom: 0px; color: rgb(34, 19, 65); font-family: &amp;quot;helvetica neue&amp;quot;, Helvetica, Arial, sans-serif;&quot;&gt;Use of Your Personal Data&lt;/h2&gt;
+
+&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; font-size: 1rem; color: rgb(73, 57, 106); font-family: &amp;quot;helvetica neue&amp;quot;, Helvetica, Arial, sans-serif;&quot;&gt;The Company may use Personal Data for the following purposes:&lt;/p&gt;
+
+&lt;ul style=&quot;box-sizing: border-box; margin: 15px 0px 15px 30px; padding-right: 0px; padding-left: 0px; list-style-position: initial; list-style-image: initial; font-size: 1rem; line-height: 2; color: rgb(73, 57, 106); font-family: &amp;quot;helvetica neue&amp;quot;, Helvetica, Arial, sans-serif;&quot;&gt;
+	&lt;li style=&quot;box-sizing: border-box;&quot;&gt;
+	&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; font-size: 1rem;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: bolder;&quot;&gt;To provide and maintain our Service&lt;/span&gt;, including to monitor the usage of our Service.&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li style=&quot;box-sizing: border-box;&quot;&gt;
+	&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; font-size: 1rem;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: bolder;&quot;&gt;To manage Your Account:&lt;/span&gt;&amp;nbsp;to manage Your registration as a user of the Service. The Personal Data You provide can give You access to different functionalities of the Service that are available to You as a registered user.&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li style=&quot;box-sizing: border-box;&quot;&gt;
+	&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; font-size: 1rem;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: bolder;&quot;&gt;For the performance of a contract:&lt;/span&gt;&amp;nbsp;the development, compliance and undertaking of the purchase contract for the products, items or services You have purchased or of any other contract with Us through the Service.&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li style=&quot;box-sizing: border-box;&quot;&gt;
+	&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; font-size: 1rem;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: bolder;&quot;&gt;To contact You:&lt;/span&gt;&amp;nbsp;To contact You by email, telephone calls, SMS, or other equivalent forms of electronic communication, such as a mobile application's push notifications regarding updates or informative communications related to the functionalities, products or contracted services, including the security updates, when necessary or reasonable for their implementation.&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li style=&quot;box-sizing: border-box;&quot;&gt;
+	&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; font-size: 1rem;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: bolder;&quot;&gt;To provide You&lt;/span&gt;&amp;nbsp;with news, special offers and general information about other goods, services and events which we offer that are similar to those that you have already purchased or enquired about unless You have opted not to receive such information.&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li style=&quot;box-sizing: border-box;&quot;&gt;
+	&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; font-size: 1rem;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: bolder;&quot;&gt;To manage Your requests:&lt;/span&gt;&amp;nbsp;To attend and manage Your requests to Us.&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li style=&quot;box-sizing: border-box;&quot;&gt;
+	&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; font-size: 1rem;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: bolder;&quot;&gt;For business transfers:&lt;/span&gt;&amp;nbsp;We may use Your information to evaluate or conduct a merger, divestiture, restructuring, reorganization, dissolution, or other sale or transfer of some or all of Our assets, whether as a going concern or as part of bankruptcy, liquidation, or similar proceeding, in which Personal Data held by Us about our Service users is among the assets transferred.&lt;/p&gt;
+	&lt;/li&gt;
+	&lt;li style=&quot;box-sizing: border-box;&quot;&gt;
+	&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; font-size: 1rem;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: bolder;&quot;&gt;For other purposes&lt;/span&gt;: We may use Your information for other purposes, such as data analysis, identifying usage trends, determining the effectiveness of our promotional campaigns and to evaluate and improve our Service, products, services, marketing and your experience.&lt;/p&gt;
+	&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; font-size: 1rem; color: rgb(73, 57, 106); font-family: &amp;quot;helvetica neue&amp;quot;, Helvetica, Arial, sans-serif;&quot;&gt;We may share Your personal information in the following situations:&lt;/p&gt;
+
+&lt;ul style=&quot;box-sizing: border-box; margin: 15px 0px 15px 30px; padding-right: 0px; padding-left: 0px; list-style-position: initial; list-style-image: initial; font-size: 1rem; line-height: 2; color: rgb(73, 57, 106); font-family: &amp;quot;helvetica neue&amp;quot;, Helvetica, Arial, sans-serif;&quot;&gt;
+	&lt;li style=&quot;box-sizing: border-box;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: bolder;&quot;&gt;With Service Providers:&lt;/span&gt;&amp;nbsp;We may share Your personal information with Service Providers to monitor and analyze the use of our Service, to contact You.&lt;/li&gt;
+	&lt;li style=&quot;box-sizing: border-box;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: bolder;&quot;&gt;For business transfers:&lt;/span&gt;&amp;nbsp;We may share or transfer Your personal information in connection with, or during negotiations of, any merger, sale of Company assets, financing, or acquisition of all or a portion of Our business to another company.&lt;/li&gt;
+	&lt;li style=&quot;box-sizing: border-box;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: bolder;&quot;&gt;With Affiliates:&lt;/span&gt;&amp;nbsp;We may share Your information with Our affiliates, in which case we will require those affiliates to honor this Privacy Policy. Affiliates include Our parent company and any other subsidiaries, joint venture partners or other companies that We control or that are under common control with Us.&lt;/li&gt;
+	&lt;li style=&quot;box-sizing: border-box;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: bolder;&quot;&gt;With business partners:&lt;/span&gt;&amp;nbsp;We may share Your information with Our business partners to offer You certain products, services or promotions.&lt;/li&gt;
+	&lt;li style=&quot;box-sizing: border-box;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: bolder;&quot;&gt;With other users:&lt;/span&gt;&amp;nbsp;when You share personal information or otherwise interact in the public areas with other users, such information may be viewed by all users and may be publicly distributed outside.&lt;/li&gt;
+	&lt;li style=&quot;box-sizing: border-box;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: bolder;&quot;&gt;With Your consent&lt;/span&gt;: We may disclose Your personal information for any other purpose with Your consent.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 style=&quot;box-sizing: border-box; font-size: 1.65rem; line-height: inherit; font-weight: 700; margin: 20px 0px 10px; padding-bottom: 0px; color: rgb(34, 19, 65); font-family: &amp;quot;helvetica neue&amp;quot;, Helvetica, Arial, sans-serif;&quot;&gt;Retention of Your Personal Data&lt;/h2&gt;
+
+&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; font-size: 1rem; color: rgb(73, 57, 106); font-family: &amp;quot;helvetica neue&amp;quot;, Helvetica, Arial, sans-serif;&quot;&gt;The Company will retain Your Personal Data only for as long as is necessary for the purposes set out in this Privacy Policy. We will retain and use Your Personal Data to the extent necessary to comply with our legal obligations (for example, if we are required to retain your data to comply with applicable laws), resolve disputes, and enforce our legal agreements and policies.&lt;/p&gt;
+
+&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; font-size: 1rem; color: rgb(73, 57, 106); font-family: &amp;quot;helvetica neue&amp;quot;, Helvetica, Arial, sans-serif;&quot;&gt;The Company will also retain Usage Data for internal analysis purposes. Usage Data is generally retained for a shorter period of time, except when this data is used to strengthen the security or to improve the functionality of Our Service, or We are legally obligated to retain this data for longer time periods.&lt;/p&gt;
+
+&lt;h2 style=&quot;box-sizing: border-box; font-size: 1.65rem; line-height: inherit; font-weight: 700; margin: 20px 0px 10px; padding-bottom: 0px; color: rgb(34, 19, 65); font-family: &amp;quot;helvetica neue&amp;quot;, Helvetica, Arial, sans-serif;&quot;&gt;Transfer of Your Personal Data&lt;/h2&gt;
+
+&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; font-size: 1rem; color: rgb(73, 57, 106); font-family: &amp;quot;helvetica neue&amp;quot;, Helvetica, Arial, sans-serif;&quot;&gt;Your information, including Personal Data, is processed at the Company's operating offices and in any other places where the parties involved in the processing are located. It means that this information may be transferred to — and maintained on — computers located outside of Your state, province, country or other governmental jurisdiction where the data protection laws may differ than those from Your jurisdiction.&lt;/p&gt;
+
+&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; font-size: 1rem; color: rgb(73, 57, 106); font-family: &amp;quot;helvetica neue&amp;quot;, Helvetica, Arial, sans-serif;&quot;&gt;Your consent to this Privacy Policy followed by Your submission of such information represents Your agreement to that transfer.&lt;/p&gt;
+
+&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; font-size: 1rem; color: rgb(73, 57, 106); font-family: &amp;quot;helvetica neue&amp;quot;, Helvetica, Arial, sans-serif;&quot;&gt;The Company will take all steps reasonably necessary to ensure that Your data is treated securely and in accordance with this Privacy Policy and no transfer of Your Personal Data will take place to an organization or a country unless there are adequate controls in place including the security of Your data and other personal information.&lt;/p&gt;
+
+&lt;h2 style=&quot;box-sizing: border-box; font-size: 1.65rem; line-height: inherit; font-weight: 700; margin: 20px 0px 10px; padding-bottom: 0px; color: rgb(34, 19, 65); font-family: &amp;quot;helvetica neue&amp;quot;, Helvetica, Arial, sans-serif;&quot;&gt;Disclosure of Your Personal Data&lt;/h2&gt;
+
+&lt;h3 style=&quot;box-sizing: border-box; font-size: 1.35rem; line-height: inherit; font-weight: 700; margin: 20px 0px 10px; padding-bottom: 0px; color: rgb(34, 19, 65); font-family: &amp;quot;helvetica neue&amp;quot;, Helvetica, Arial, sans-serif;&quot;&gt;Business Transactions&lt;/h3&gt;
+
+&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; font-size: 1rem; color: rgb(73, 57, 106); font-family: &amp;quot;helvetica neue&amp;quot;, Helvetica, Arial, sans-serif;&quot;&gt;If the Company is involved in a merger, acquisition or asset sale, Your Personal Data may be transferred. We will provide notice before Your Personal Data is transferred and becomes subject to a different Privacy Policy.&lt;/p&gt;
+
+&lt;h3 style=&quot;box-sizing: border-box; font-size: 1.35rem; line-height: inherit; font-weight: 700; margin: 20px 0px 10px; padding-bottom: 0px; color: rgb(34, 19, 65); font-family: &amp;quot;helvetica neue&amp;quot;, Helvetica, Arial, sans-serif;&quot;&gt;Law enforcement&lt;/h3&gt;
+
+&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; font-size: 1rem; color: rgb(73, 57, 106); font-family: &amp;quot;helvetica neue&amp;quot;, Helvetica, Arial, sans-serif;&quot;&gt;Under certain circumstances, the Company may be required to disclose Your Personal Data if required to do so by law or in response to valid requests by public authorities (e.g. a court or a government agency).&lt;/p&gt;
+
+&lt;h3 style=&quot;box-sizing: border-box; font-size: 1.35rem; line-height: inherit; font-weight: 700; margin: 20px 0px 10px; padding-bottom: 0px; color: rgb(34, 19, 65); font-family: &amp;quot;helvetica neue&amp;quot;, Helvetica, Arial, sans-serif;&quot;&gt;Other legal requirements&lt;/h3&gt;
+
+&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; font-size: 1rem; color: rgb(73, 57, 106); font-family: &amp;quot;helvetica neue&amp;quot;, Helvetica, Arial, sans-serif;&quot;&gt;The Company may disclose Your Personal Data in the good faith belief that such action is necessary to:&lt;/p&gt;
+
+&lt;ul style=&quot;box-sizing: border-box; margin: 15px 0px 15px 30px; padding-right: 0px; padding-left: 0px; list-style-position: initial; list-style-image: initial; font-size: 1rem; line-height: 2; color: rgb(73, 57, 106); font-family: &amp;quot;helvetica neue&amp;quot;, Helvetica, Arial, sans-serif;&quot;&gt;
+	&lt;li style=&quot;box-sizing: border-box;&quot;&gt;Comply with a legal obligation&lt;/li&gt;
+	&lt;li style=&quot;box-sizing: border-box;&quot;&gt;Protect and defend the rights or property of the Company&lt;/li&gt;
+	&lt;li style=&quot;box-sizing: border-box;&quot;&gt;Prevent or investigate possible wrongdoing in connection with the Service&lt;/li&gt;
+	&lt;li style=&quot;box-sizing: border-box;&quot;&gt;Protect the personal safety of Users of the Service or the public&lt;/li&gt;
+	&lt;li style=&quot;box-sizing: border-box;&quot;&gt;Protect against legal liability&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 style=&quot;box-sizing: border-box; font-size: 1.65rem; line-height: inherit; font-weight: 700; margin: 20px 0px 10px; padding-bottom: 0px; color: rgb(34, 19, 65); font-family: &amp;quot;helvetica neue&amp;quot;, Helvetica, Arial, sans-serif;&quot;&gt;Security of Your Personal Data&lt;/h2&gt;
+
+&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; font-size: 1rem; color: rgb(73, 57, 106); font-family: &amp;quot;helvetica neue&amp;quot;, Helvetica, Arial, sans-serif;&quot;&gt;The security of Your Personal Data is important to Us, but remember that no method of transmission over the Internet, or method of electronic storage is 100% secure. While We strive to use commercially acceptable means to protect Your Personal Data, We cannot guarantee its absolute security.&lt;/p&gt;
+
+&lt;h1 style=&quot;box-sizing: border-box; font-size: 2.125rem; line-height: 1.4; font-weight: 700; margin: 25px 0px 15px; padding-bottom: 0px; color: rgb(34, 19, 65); font-family: &amp;quot;helvetica neue&amp;quot;, Helvetica, Arial, sans-serif;&quot;&gt;Children's Privacy&lt;/h1&gt;
+
+&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; font-size: 1rem; color: rgb(73, 57, 106); font-family: &amp;quot;helvetica neue&amp;quot;, Helvetica, Arial, sans-serif;&quot;&gt;Our Service does not address anyone under the age of 13. We do not knowingly collect personally identifiable information from anyone under the age of 13. If You are a parent or guardian and You are aware that Your child has provided Us with Personal Data, please contact Us. If We become aware that We have collected Personal Data from anyone under the age of 13 without verification of parental consent, We take steps to remove that information from Our servers.&lt;/p&gt;
+
+&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; font-size: 1rem; color: rgb(73, 57, 106); font-family: &amp;quot;helvetica neue&amp;quot;, Helvetica, Arial, sans-serif;&quot;&gt;If We need to rely on consent as a legal basis for processing Your information and Your country requires consent from a parent, We may require Your parent's consent before We collect and use that information.&lt;/p&gt;
+
+&lt;h1 style=&quot;box-sizing: border-box; font-size: 2.125rem; line-height: 1.4; font-weight: 700; margin: 25px 0px 15px; padding-bottom: 0px; color: rgb(34, 19, 65); font-family: &amp;quot;helvetica neue&amp;quot;, Helvetica, Arial, sans-serif;&quot;&gt;Links to Other Websites&lt;/h1&gt;
+
+&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; font-size: 1rem; color: rgb(73, 57, 106); font-family: &amp;quot;helvetica neue&amp;quot;, Helvetica, Arial, sans-serif;&quot;&gt;Our Service may contain links to other websites that are not operated by Us. If You click on a third party link, You will be directed to that third party's site. We strongly advise You to review the Privacy Policy of every site You visit.&lt;/p&gt;
+
+&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; font-size: 1rem; color: rgb(73, 57, 106); font-family: &amp;quot;helvetica neue&amp;quot;, Helvetica, Arial, sans-serif;&quot;&gt;We have no control over and assume no responsibility for the content, privacy policies or practices of any third party sites or services.&lt;/p&gt;
+
+&lt;h1 style=&quot;box-sizing: border-box; font-size: 2.125rem; line-height: 1.4; font-weight: 700; margin: 25px 0px 15px; padding-bottom: 0px; color: rgb(34, 19, 65); font-family: &amp;quot;helvetica neue&amp;quot;, Helvetica, Arial, sans-serif;&quot;&gt;Changes to this Privacy Policy&lt;/h1&gt;
+
+&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; font-size: 1rem; color: rgb(73, 57, 106); font-family: &amp;quot;helvetica neue&amp;quot;, Helvetica, Arial, sans-serif;&quot;&gt;We may update Our Privacy Policy from time to time. We will notify You of any changes by posting the new Privacy Policy on this page.&lt;/p&gt;
+
+&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; font-size: 1rem; color: rgb(73, 57, 106); font-family: &amp;quot;helvetica neue&amp;quot;, Helvetica, Arial, sans-serif;&quot;&gt;We will let You know via email and/or a prominent notice on Our Service, prior to the change becoming effective and update the &quot;Last updated&quot; date at the top of this Privacy Policy.&lt;/p&gt;
+
+&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; font-size: 1rem; color: rgb(73, 57, 106); font-family: &amp;quot;helvetica neue&amp;quot;, Helvetica, Arial, sans-serif;&quot;&gt;You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.&lt;/p&gt;
+
+&lt;h1 style=&quot;box-sizing: border-box; font-size: 2.125rem; line-height: 1.4; font-weight: 700; margin: 25px 0px 15px; padding-bottom: 0px; color: rgb(34, 19, 65); font-family: &amp;quot;helvetica neue&amp;quot;, Helvetica, Arial, sans-serif;&quot;&gt;Contact Us&lt;/h1&gt;
+
+&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 10px; font-size: 1rem; color: rgb(73, 57, 106); font-family: &amp;quot;helvetica neue&amp;quot;, Helvetica, Arial, sans-serif;&quot;&gt;If you have any questions about this Privacy Policy, You can contact us:&lt;/p&gt;
+
+&lt;ul style=&quot;box-sizing: border-box; margin: 15px 0px 15px 30px; padding-right: 0px; padding-left: 0px; list-style-position: initial; list-style-image: initial; font-size: 1rem; line-height: 2; color: rgb(73, 57, 106); font-family: &amp;quot;helvetica neue&amp;quot;, Helvetica, Arial, sans-serif;&quot;&gt;
+	&lt;li style=&quot;box-sizing: border-box;&quot;&gt;By email:&amp;nbsp;info@cubacubhardware.tech&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+";}i:3;a:7:{s:14:"information_id";s:1:"5";s:6:"bottom";s:1:"1";s:10:"sort_order";s:1:"4";s:6:"status";s:1:"1";s:11:"language_id";s:1:"1";s:5:"title";s:22:"Terms &amp; Conditions";s:11:"description";s:22329:"&lt;div class=&quot;about-page&quot;&gt;
+&lt;h2 style=&quot;box-sizing: border-box; font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; line-height: 1.1; color: rgb(102, 102, 102); margin: 0px 0px 18px; font-size: 16px;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: 700;&quot;&gt;Terms and Conditions&lt;/span&gt;&lt;/h2&gt;
+
+&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 20px; color: rgb(102, 102, 102); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px;&quot;&gt;Welcome to Cubacub Hardware!&lt;/p&gt;
+
+&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 20px; color: rgb(102, 102, 102); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px;&quot;&gt;These terms and conditions outline the rules and regulations for the use of Cubacub Agricultural Hardware's Website, located at https://cubacubhardware.tech/.&lt;/p&gt;
+
+&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 20px; color: rgb(102, 102, 102); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px;&quot;&gt;By accessing this website we assume you accept these terms and conditions. Do not continue to use Cubacub Hardware if you do not agree to take all of the terms and conditions stated on this page.&lt;/p&gt;
+
+&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 20px; color: rgb(102, 102, 102); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px;&quot;&gt;The following terminology applies to these Terms and Conditions, Privacy Statement and Disclaimer Notice and all Agreements: &quot;Client&quot;, &quot;You&quot; and &quot;Your&quot; refers to you, the person log on this website and compliant to the Company’s terms and conditions. &quot;The Company&quot;, &quot;Ourselves&quot;, &quot;We&quot;, &quot;Our&quot; and &quot;Us&quot;, refers to our Company. &quot;Party&quot;, &quot;Parties&quot;, or &quot;Us&quot;, refers to both the Client and ourselves. All terms refer to the offer, acceptance and consideration of payment necessary to undertake the process of our assistance to the Client in the most appropriate manner for the express purpose of meeting the Client’s needs in respect of provision of the Company’s stated services, in accordance with and subject to, prevailing law of Netherlands. Any use of the above terminology or other words in the singular, plural, capitalization and/or he/she or they, are taken as interchangeable and therefore as referring to same.&lt;/p&gt;
+
+&lt;h3 style=&quot;box-sizing: border-box; font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; line-height: 1.1; color: rgb(102, 102, 102); margin: 0px 0px 18px; font-size: 14px;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: 700;&quot;&gt;Cookies&lt;/span&gt;&lt;/h3&gt;
+
+&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 20px; color: rgb(102, 102, 102); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px;&quot;&gt;We employ the use of cookies. By accessing Cubacub Hardware, you agreed to use cookies in agreement with the Cubacub Agricultural Hardware's Privacy Policy.&lt;/p&gt;
+
+&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 20px; color: rgb(102, 102, 102); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px;&quot;&gt;Most interactive websites use cookies to let us retrieve the user’s details for each visit. Cookies are used by our website to enable the functionality of certain areas to make it easier for people visiting our website. Some of our affiliate/advertising partners may also use cookies.&lt;/p&gt;
+
+&lt;h3 style=&quot;box-sizing: border-box; font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; line-height: 1.1; color: rgb(102, 102, 102); margin: 0px 0px 18px; font-size: 14px;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: 700;&quot;&gt;License&lt;/span&gt;&lt;/h3&gt;
+
+&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 20px; color: rgb(102, 102, 102); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px;&quot;&gt;Unless otherwise stated, Cubacub Agricultural Hardware and/or its licensors own the intellectual property rights for all material on Cubacub Hardware. All intellectual property rights are reserved. You may access this from Cubacub Hardware for your own personal use subjected to restrictions set in these terms and conditions.&lt;/p&gt;
+
+&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 20px; color: rgb(102, 102, 102); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px;&quot;&gt;You must not:&lt;/p&gt;
+
+&lt;ul style=&quot;box-sizing: border-box; margin-top: 0px; margin-bottom: 10px; color: rgb(102, 102, 102); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px;&quot;&gt;
+	&lt;li style=&quot;box-sizing: border-box;&quot;&gt;Republish material from Cubacub Hardware&lt;/li&gt;
+	&lt;li style=&quot;box-sizing: border-box;&quot;&gt;Sell, rent or sub-license material from Cubacub Hardware&lt;/li&gt;
+	&lt;li style=&quot;box-sizing: border-box;&quot;&gt;Reproduce, duplicate or copy material from Cubacub Hardware&lt;/li&gt;
+	&lt;li style=&quot;box-sizing: border-box;&quot;&gt;Redistribute content from Cubacub Hardware&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 20px; color: rgb(102, 102, 102); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px;&quot;&gt;This Agreement shall begin on the date hereof. Our Terms and Conditions were created with the help of the&amp;nbsp;&lt;a href=&quot;https://www.termsandconditionsgenerator.com/&quot; style=&quot;box-sizing: border-box; background-color: transparent; color: rgb(102, 102, 102); text-decoration-line: none;&quot;&gt;Terms And Conditions Generator&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 20px; color: rgb(102, 102, 102); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px;&quot;&gt;Parts of this website offer an opportunity for users to post and exchange opinions and information in certain areas of the website. Cubacub Agricultural Hardware does not filter, edit, publish or review Comments prior to their presence on the website. Comments do not reflect the views and opinions of Cubacub Agricultural Hardware,its agents and/or affiliates. Comments reflect the views and opinions of the person who post their views and opinions. To the extent permitted by applicable laws, Cubacub Agricultural Hardware shall not be liable for the Comments or for any liability, damages or expenses caused and/or suffered as a result of any use of and/or posting of and/or appearance of the Comments on this website.&lt;/p&gt;
+
+&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 20px; color: rgb(102, 102, 102); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px;&quot;&gt;Cubacub Agricultural Hardware reserves the right to monitor all Comments and to remove any Comments which can be considered inappropriate, offensive or causes breach of these Terms and Conditions.&lt;/p&gt;
+
+&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 20px; color: rgb(102, 102, 102); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px;&quot;&gt;You warrant and represent that:&lt;/p&gt;
+
+&lt;ul style=&quot;box-sizing: border-box; margin-top: 0px; margin-bottom: 10px; color: rgb(102, 102, 102); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px;&quot;&gt;
+	&lt;li style=&quot;box-sizing: border-box;&quot;&gt;You are entitled to post the Comments on our website and have all necessary licenses and consents to do so;&lt;/li&gt;
+	&lt;li style=&quot;box-sizing: border-box;&quot;&gt;The Comments do not invade any intellectual property right, including without limitation copyright, patent or trademark of any third party;&lt;/li&gt;
+	&lt;li style=&quot;box-sizing: border-box;&quot;&gt;The Comments do not contain any defamatory, libelous, offensive, indecent or otherwise unlawful material which is an invasion of privacy&lt;/li&gt;
+	&lt;li style=&quot;box-sizing: border-box;&quot;&gt;The Comments will not be used to solicit or promote business or custom or present commercial activities or unlawful activity.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 20px; color: rgb(102, 102, 102); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px;&quot;&gt;You hereby grant Cubacub Agricultural Hardware a non-exclusive license to use, reproduce, edit and authorize others to use, reproduce and edit any of your Comments in any and all forms, formats or media.&lt;/p&gt;
+
+&lt;h3 style=&quot;box-sizing: border-box; font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; line-height: 1.1; color: rgb(102, 102, 102); margin: 0px 0px 18px; font-size: 14px;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: 700;&quot;&gt;Hyperlinking to our Content&lt;/span&gt;&lt;/h3&gt;
+
+&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 20px; color: rgb(102, 102, 102); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px;&quot;&gt;The following organizations may link to our Website without prior written approval:&lt;/p&gt;
+
+&lt;ul style=&quot;box-sizing: border-box; margin-top: 0px; margin-bottom: 10px; color: rgb(102, 102, 102); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px;&quot;&gt;
+	&lt;li style=&quot;box-sizing: border-box;&quot;&gt;Government agencies;&lt;/li&gt;
+	&lt;li style=&quot;box-sizing: border-box;&quot;&gt;Search engines;&lt;/li&gt;
+	&lt;li style=&quot;box-sizing: border-box;&quot;&gt;News organizations;&lt;/li&gt;
+	&lt;li style=&quot;box-sizing: border-box;&quot;&gt;Online directory distributors may link to our Website in the same manner as they hyperlink to the Websites of other listed businesses; and&lt;/li&gt;
+	&lt;li style=&quot;box-sizing: border-box;&quot;&gt;System wide Accredited Businesses except soliciting non-profit organizations, charity shopping malls, and charity fundraising groups which may not hyperlink to our Web site.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 20px; color: rgb(102, 102, 102); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px;&quot;&gt;These organizations may link to our home page, to publications or to other Website information so long as the link: (a) is not in any way deceptive; (b) does not falsely imply sponsorship, endorsement or approval of the linking party and its products and/or services; and (c) fits within the context of the linking party’s site.&lt;/p&gt;
+
+&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 20px; color: rgb(102, 102, 102); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px;&quot;&gt;We may consider and approve other link requests from the following types of organizations:&lt;/p&gt;
+
+&lt;ul style=&quot;box-sizing: border-box; margin-top: 0px; margin-bottom: 10px; color: rgb(102, 102, 102); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px;&quot;&gt;
+	&lt;li style=&quot;box-sizing: border-box;&quot;&gt;commonly-known consumer and/or business information sources;&lt;/li&gt;
+	&lt;li style=&quot;box-sizing: border-box;&quot;&gt;dot.com community sites;&lt;/li&gt;
+	&lt;li style=&quot;box-sizing: border-box;&quot;&gt;associations or other groups representing charities;&lt;/li&gt;
+	&lt;li style=&quot;box-sizing: border-box;&quot;&gt;online directory distributors;&lt;/li&gt;
+	&lt;li style=&quot;box-sizing: border-box;&quot;&gt;internet portals;&lt;/li&gt;
+	&lt;li style=&quot;box-sizing: border-box;&quot;&gt;accounting, law and consulting firms; and&lt;/li&gt;
+	&lt;li style=&quot;box-sizing: border-box;&quot;&gt;educational institutions and trade associations.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 20px; color: rgb(102, 102, 102); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px;&quot;&gt;We will approve link requests from these organizations if we decide that: (a) the link would not make us look unfavorably to ourselves or to our accredited businesses; (b) the organization does not have any negative records with us; (c) the benefit to us from the visibility of the hyperlink compensates the absence of Cubacub Agricultural Hardware; and (d) the link is in the context of general resource information.&lt;/p&gt;
+
+&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 20px; color: rgb(102, 102, 102); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px;&quot;&gt;These organizations may link to our home page so long as the link: (a) is not in any way deceptive; (b) does not falsely imply sponsorship, endorsement or approval of the linking party and its products or services; and (c) fits within the context of the linking party’s site.&lt;/p&gt;
+
+&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 20px; color: rgb(102, 102, 102); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px;&quot;&gt;If you are one of the organizations listed in paragraph 2 above and are interested in linking to our website, you must inform us by sending an e-mail to Cubacub Agricultural Hardware. Please include your name, your organization name, contact information as well as the URL of your site, a list of any URLs from which you intend to link to our Website, and a list of the URLs on our site to which you would like to link. Wait 2-3 weeks for a response.&lt;/p&gt;
+
+&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 20px; color: rgb(102, 102, 102); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px;&quot;&gt;Approved organizations may hyperlink to our Website as follows:&lt;/p&gt;
+
+&lt;ul style=&quot;box-sizing: border-box; margin-top: 0px; margin-bottom: 10px; color: rgb(102, 102, 102); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px;&quot;&gt;
+	&lt;li style=&quot;box-sizing: border-box;&quot;&gt;By use of our corporate name; or&lt;/li&gt;
+	&lt;li style=&quot;box-sizing: border-box;&quot;&gt;By use of the uniform resource locator being linked to; or&lt;/li&gt;
+	&lt;li style=&quot;box-sizing: border-box;&quot;&gt;By use of any other description of our Website being linked to that makes sense within the context and format of content on the linking party’s site.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 20px; color: rgb(102, 102, 102); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px;&quot;&gt;No use of Cubacub Agricultural Hardware's logo or other artwork will be allowed for linking absent a trademark license agreement.&lt;/p&gt;
+
+&lt;h3 style=&quot;box-sizing: border-box; font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; line-height: 1.1; color: rgb(102, 102, 102); margin: 0px 0px 18px; font-size: 14px;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: 700;&quot;&gt;iFrames&lt;/span&gt;&lt;/h3&gt;
+
+&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 20px; color: rgb(102, 102, 102); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px;&quot;&gt;Without prior approval and written permission, you may not create frames around our Webpages that alter in any way the visual presentation or appearance of our Website.&lt;/p&gt;
+
+&lt;h3 style=&quot;box-sizing: border-box; font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; line-height: 1.1; color: rgb(102, 102, 102); margin: 0px 0px 18px; font-size: 14px;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: 700;&quot;&gt;Content Liability&lt;/span&gt;&lt;/h3&gt;
+
+&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 20px; color: rgb(102, 102, 102); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px;&quot;&gt;We shall not be hold responsible for any content that appears on your Website. You agree to protect and defend us against all claims that is rising on your Website. No link(s) should appear on any Website that may be interpreted as libelous, obscene or criminal, or which infringes, otherwise violates, or advocates the infringement or other violation of, any third party rights.&lt;/p&gt;
+
+&lt;h3 style=&quot;box-sizing: border-box; font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; line-height: 1.1; color: rgb(102, 102, 102); margin: 0px 0px 18px; font-size: 14px;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: 700;&quot;&gt;Your Privacy&lt;/span&gt;&lt;/h3&gt;
+
+&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 20px; color: rgb(102, 102, 102); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px;&quot;&gt;Please read Privacy Policy&lt;/p&gt;
+
+&lt;h3 style=&quot;box-sizing: border-box; font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; line-height: 1.1; color: rgb(102, 102, 102); margin: 0px 0px 18px; font-size: 14px;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: 700;&quot;&gt;Reservation of Rights&lt;/span&gt;&lt;/h3&gt;
+
+&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 20px; color: rgb(102, 102, 102); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px;&quot;&gt;We reserve the right to request that you remove all links or any particular link to our Website. You approve to immediately remove all links to our Website upon request. We also reserve the right to amen these terms and conditions and it’s linking policy at any time. By continuously linking to our Website, you agree to be bound to and follow these linking terms and conditions.&lt;/p&gt;
+
+&lt;h3 style=&quot;box-sizing: border-box; font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; line-height: 1.1; color: rgb(102, 102, 102); margin: 0px 0px 18px; font-size: 14px;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: 700;&quot;&gt;Removal of links from our website&lt;/span&gt;&lt;/h3&gt;
+
+&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 20px; color: rgb(102, 102, 102); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px;&quot;&gt;If you find any link on our Website that is offensive for any reason, you are free to contact and inform us any moment. We will consider requests to remove links but we are not obligated to or so or to respond to you directly.&lt;/p&gt;
+
+&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 20px; color: rgb(102, 102, 102); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px;&quot;&gt;We do not ensure that the information on this website is correct, we do not warrant its completeness or accuracy; nor do we promise to ensure that the website remains available or that the material on the website is kept up to date.&lt;/p&gt;
+
+&lt;h3 style=&quot;box-sizing: border-box; font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; line-height: 1.1; color: rgb(102, 102, 102); margin: 0px 0px 18px; font-size: 14px;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: 700;&quot;&gt;Disclaimer&lt;/span&gt;&lt;/h3&gt;
+
+&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 20px; color: rgb(102, 102, 102); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px;&quot;&gt;To the maximum extent permitted by applicable law, we exclude all representations, warranties and conditions relating to our website and the use of this website. Nothing in this disclaimer will:&lt;/p&gt;
+
+&lt;ul style=&quot;box-sizing: border-box; margin-top: 0px; margin-bottom: 10px; color: rgb(102, 102, 102); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px;&quot;&gt;
+	&lt;li style=&quot;box-sizing: border-box;&quot;&gt;limit or exclude our or your liability for death or personal injury;&lt;/li&gt;
+	&lt;li style=&quot;box-sizing: border-box;&quot;&gt;limit or exclude our or your liability for fraud or fraudulent misrepresentation;&lt;/li&gt;
+	&lt;li style=&quot;box-sizing: border-box;&quot;&gt;limit any of our or your liabilities in any way that is not permitted under applicable law; or&lt;/li&gt;
+	&lt;li style=&quot;box-sizing: border-box;&quot;&gt;exclude any of our or your liabilities that may not be excluded under applicable law.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 20px; color: rgb(102, 102, 102); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px;&quot;&gt;The limitations and prohibitions of liability set in this Section and elsewhere in this disclaimer: (a) are subject to the preceding paragraph; and (b) govern all liabilities arising under the disclaimer, including liabilities arising in contract, in tort and for breach of statutory duty.&lt;/p&gt;
+
+&lt;p style=&quot;box-sizing: border-box; margin: 0px 0px 20px; color: rgb(102, 102, 102); font-family: &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 14px;&quot;&gt;As long as the website and the information and services on the website are provided free of charge, we will not be liable for any loss or damage of any nature.&lt;/p&gt;
+&lt;/div&gt;
+";}}
